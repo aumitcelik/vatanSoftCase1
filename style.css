@@ -42,3 +42,20 @@ body {
     padding-top: 1%;
 }
 
+#personal-website {
+    position: fixed;
+    bottom: 10px; 
+    right: 10px; 
+    background-color: #333; 
+    color: #fff; 
+    padding: 10px; 
+}
+
+#personal-website a {
+    color: #fff; 
+    text-decoration: none; 
+}
+
+#personal-website a:hover {
+    text-decoration: underline; 
+}

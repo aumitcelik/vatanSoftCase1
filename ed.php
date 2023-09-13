@@ -25,5 +25,9 @@ $veriler = json_decode($jsonFile, true);
     <?php endforeach; ?>
     </div>
 
+    <div id="personal-website">
+        <a href="https://www.ahsenumitcelik.dev/" target="_blank">Ahsen Ümit Çelik</a>
+    </div>
+
 </body>
 </html>
