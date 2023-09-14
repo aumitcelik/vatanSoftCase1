@@ -1,6 +1,6 @@
 <?php
 $jsonFile = file_get_contents('data.json');
-$veriler = json_decode($jsonFile, true);
+$data = json_decode($jsonFile, true);
 ?>
 
 <!DOCTYPE html>
@@ -14,7 +14,7 @@ $veriler = json_decode($jsonFile, true);
     <h1>Yorumlar</h1>
     
     <div class="comments-list">
-    <?php foreach ($veriler['comments'] as $comment): ?>
+    <?php foreach ($data['comments'] as $comment): ?>
         <div class="comment">
             <div class="comment-title"><?php echo $comment['title']; ?></div>
             <div class="comment-content"><?php echo $comment['content']; ?></div>
